@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    padding: 10px 300px;
+}
+
+.nav img{
+    width: 150px;
+    height: 50px;
+}
+
+.nav_Menu{
+    display: flex;
+    margin-left: 200px;
+}
+
+.nav_Menu p{
+    margin-right: 25px;
+}
+
+.nav_Menu button{
+    background-color: #A53DFF;
+    color: white;
+    width: 111px;
+    height: 48px;
+}
