@@ -22,4 +22,6 @@
     color: white;
     width: 111px;
     height: 48px;
+    border-radius: 5px;
+    border: 0px;
 }
