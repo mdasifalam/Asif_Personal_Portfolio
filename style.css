@@ -25,3 +25,104 @@
     border-radius: 5px;
     border: 0px;
 }
+
+.section_Two{
+    display: flex;
+    padding: 50px 300px;
+    /* background-image: linear-gradient(to right,white, rgb(221, 0, 255)); */
+    background-color: #ffffff; /* Base color */
+    background-image: 
+        radial-gradient(at 0% 20%, rgba(255, 191, 0, 0.15) 0px, transparent 50%), /* Yellow glow left */
+        radial-gradient(at 80% 0%, rgba(221, 0, 255, 0.1) 0px, transparent 40%),  /* Pink glow top right */
+        radial-gradient(at 95% 10%, rgba(0, 255, 255, 0.05) 0px, transparent 30%); /* Subtle cyan hint */
+    background-attachment: fixed;
+}
+
+.section_Two button{
+    background-color: #A53DFF;
+    color: white;
+    width: 126px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.section_Two img{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.section_Two_div2{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section_Two_div2 div{
+    height: 90px;
+    width: 150px;
+    background-color: #F6EBFE;
+    margin-right: 2px;
+}
+
+.section_Two_div2 div span{
+    font-size: 1.5em; /* This is the standard browser default for h3 */
+    font-weight: bold; /* h3 tags are bold by default */
+    margin-top: 1em;   /* Optional: matches h3 spacing */
+    margin-bottom: 1em;
+}
+
+.section_three{
+    padding: 50px 300px;
+    background-color: #ffffff; /* Base color */
+    background-image: 
+        radial-gradient(at 0% 20%, rgba(255, 191, 0, 0.15) 0px, transparent 50%), /* Yellow glow left */
+        radial-gradient(at 80% 0%, rgba(221, 0, 255, 0.1) 0px, transparent 40%),  /* Pink glow top right */
+        radial-gradient(at 95% 10%, rgba(0, 255, 255, 0.05) 0px, transparent 30%); /* Subtle cyan hint */
+    background-attachment: fixed;
+}
+
+.section_three_div{
+    display: flex;
+    padding: 50px 60px;
+    background-color: white;
+}
+
+.section_three_div img{
+    width: 300px;
+    height: 350px;
+    background-color: #F0F1F3;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+.section_three_wright{
+    padding-top: 50px;
+}
+
+.section_three_wright div{
+    display: flex;
+}
+
+.section_three_button1{
+    background-color: #A53DFF;
+    color: white;
+    width: 126px;
+    height: 48px;
+    border-radius: 5px;
+    border: 0px;
+    margin-right: 15px;
+}
+
+.section_three_button2{
+    background-color: white;
+    color: #A53DFF;
+    width: 126px;
+    height: 48px;
+    border-radius: 5px;
+    border-color: #A53DFF;
+    margin-right: 15px;
+}
